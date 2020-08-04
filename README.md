@@ -6,7 +6,7 @@
 # Sphinx
 - Sphinx is a simple http request library to make http requests simple and easy only one line written in c# and java
 
-- Java version : https://github.com/iiKillerxSG/Sphinx/
+- Java version : https://github.com/iiKillerxSG/Sphinx
 
 - C# Version : https://github.com/Bowlingtoolkit/Sphinx
 
