@@ -8,8 +8,17 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
+
 public class SHttpRequest {
 
+    /**
+    @author SW3RD
+    @version 1.0
+    @credits SW3RD
+
+    */
+    
+    
     String url;
 
 
