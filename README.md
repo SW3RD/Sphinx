@@ -22,7 +22,7 @@ SHttpRequest request = new SHttpRequest("web server domain here");
 
 // Use this
 
-request.get(null);
+String response = request.get(null);
 
 // else
 
@@ -30,7 +30,9 @@ HashMap<String,String> headers = new HashMap<String,String>();
 //Ex
 headers.put("content-type","application/json");
 
-request.get(headers);
+String response = request.get(headers);
+
+System.out.println(response);
 
 ```
 
@@ -43,7 +45,7 @@ SHttpRequest request = new SHttpRequest("web server domain here");
 
 // Use this
 
-request.post("the payload here",null);
+String response = request.post("the payload here",null);
 
 // else
 
@@ -51,7 +53,9 @@ HashMap<String,String> headers = new HashMap<String,String>();
 //Ex
 headers.put("content-type","application/json");
 
-request.post("the payload here",headers);
+String response = request.post("the payload here",headers);
+
+System.out.println(response);
 
 ```
 
