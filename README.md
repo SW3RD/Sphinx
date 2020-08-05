@@ -51,7 +51,7 @@ HashMap<String,String> headers = new HashMap<String,String>();
 //Ex
 headers.put("content-type","application/json");
 
-request.get("the payload here",headers);
+request.post("the payload here",headers);
 
 ```
 
